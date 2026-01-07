@@ -1,4 +1,4 @@
-# HAE-RAE-VISION
+# HAERAE-VISION
 
 Evaluation code for HAERAE-Vision benchmark - a Korean visual QA dataset with real-world, under-specified questions.
 
