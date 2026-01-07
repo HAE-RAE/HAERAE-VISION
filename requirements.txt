@@ -1,0 +1,8 @@
+pandas
+pillow
+tqdm
+datasets
+vllm
+torch
+litellm
+python-dotenv
