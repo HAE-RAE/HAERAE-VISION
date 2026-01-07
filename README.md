@@ -111,6 +111,16 @@ python score.py \
 - All Stage 1 fields plus:
 - `judge_response`: Judge model's detailed evaluation
 - `score`: Final score (0.0 to 1.0)
+  
+## Leaderboard Submission
+
+To submit your model for official evaluation on the full test set:
+
+1. Visit the [HAERAE-VISION Leaderboard](https://board.haerae.world/)
+2. Log in to your account
+3. Click the **Submit (제출하기)** button
+4. Follow the submission instructions
+
 
 ## Citation
 
@@ -122,7 +132,7 @@ python score.py \
 
 ## Contact
 
-For access to the full test set / leaderboard submission:
+For any questions about our project:
 
 - Dasol Choi (dasolchoi@yonsei.ac.kr)  
 - Guijin Son (spthsrbwls123@yonsei.ac.kr)
