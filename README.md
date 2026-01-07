@@ -135,4 +135,3 @@ To submit your model for official evaluation on the full test set:
 For any questions about our project:
 
 - Dasol Choi (dasolchoi@yonsei.ac.kr)  
-- Guijin Son (spthsrbwls123@yonsei.ac.kr)
