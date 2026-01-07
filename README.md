@@ -132,6 +132,5 @@ To submit your model for official evaluation on the full test set:
 
 ## Contact
 
-For any questions about our project:
-
-- Dasol Choi (dasolchoi@yonsei.ac.kr)  
+- Dataset: Dasol Choi (dasolchoi@yonsei.ac.kr)
+- Leaderboard: Guijin Son (spthsrbwls123@yonsei.ac.kr)
