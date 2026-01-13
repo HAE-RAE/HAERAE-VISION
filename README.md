@@ -1,7 +1,7 @@
 # HAERAE-VISION
 
   [![arXiv](https://img.shields.io/badge/arXiv-2601.01836-b31b1b.svg)](https://arxiv.org/abs/2601.01836)
-  <a href="https://huggingface.co/collections/AIM-Intelligence/compass" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20-Hugging%20Face-yellow.svg></a>
+  <a href="https://huggingface.co/datasets/HAERAE-HUB/HAERAE-VISION" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20-Hugging%20Face-yellow.svg></a>
 
 
 Evaluation code for HAERAE-Vision benchmark - a Korean visual QA dataset with real-world, under-specified questions.
