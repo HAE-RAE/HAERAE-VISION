@@ -1,7 +1,12 @@
 # HAERAE-VISION
 
+  [![arXiv](https://img.shields.io/badge/arXiv-2601.01836-b31b1b.svg)](https://arxiv.org/abs/2601.01836)
+  <a href="https://huggingface.co/collections/AIM-Intelligence/compass" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20-Hugging%20Face-yellow.svg></a>
+
+
 Evaluation code for HAERAE-Vision benchmark - a Korean visual QA dataset with real-world, under-specified questions.
 
+- **Paper**: [What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models](https://arxiv.org/abs/2601.06165)
 - **Dataset**: [HAERAE-HUB/HAERAE-VISION](https://huggingface.co/datasets/HAERAE-HUB/HAERAE-VISION)
 - **Leaderboard**: [https://board.haerae.world/](https://board.haerae.world/)
 
@@ -126,7 +131,15 @@ To submit your model for official evaluation on the full test set:
 
 
 ```bibtex
-
+@misc{choi2026usersleaveunsaid,
+      title={What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models}, 
+      author={Dasol Choi and Guijin Son and Hanwool Lee and Minhyuk Kim and Hyunwoo Ko and Teabin Lim and Ahn Eungyeol and Jungwhan Kim and Seunghyeok Hong and Youngsook Song},
+      year={2026},
+      eprint={2601.06165},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.06165}, 
+}
 ```
 
 
