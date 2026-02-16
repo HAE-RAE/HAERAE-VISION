@@ -6,7 +6,7 @@ from datasets import load_dataset
 from utils.prompts import build_messages_litellm, build_messages_vllm
 import pandas as pd
 from PIL import ImageFile
-# ImageFile.LOAD_TRUNCATED_IMAGES = True
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 # Load environment variables from .env file
 load_dotenv()
@@ -21,6 +21,8 @@ def parse_args():
     p.add_argument("--max_tokens", type=int, default=512)
     p.add_argument("--temperature", type=float, default=0.2)
     p.add_argument("--top_p", type=float, default=0.95)
+    p.add_argument("--dataset", default="HAERAE-HUB/HAERAE-VISION",
+                   help="HuggingFace dataset repo id (default: HAERAE-HUB/HAERAE-VISION)")
     p.add_argument("--system", default="You are a helpful math assistant. Answer precisely in Korean if the prompt is Korean.")
     return p.parse_args()
 
@@ -29,13 +31,12 @@ def collect_rows(ds, engine, system, question_type="original"):
     rows = []
     for item in ds:
         question_idx = item["question_idx"]
-        # Select question based on type
         question = item[f"question_{question_type}"]
         category = item["category"]
         source = item["source"]
         images = item["images"]  # HF Image objects
         checklist = item["checklist"]
-        ground_truth = item["answer"]
+        ground_truth = item.get("answer", "")
         
         processed_images = []
         
@@ -65,7 +66,7 @@ def main():
     args = parse_args()
     
     ds = load_dataset(
-        'HAERAE-HUB/HAERAE-VISION', 
+        args.dataset, 
         split='train'
     )
     df=ds.to_pandas()
