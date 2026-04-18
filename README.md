@@ -29,8 +29,6 @@ The dataset includes **two question types**:
 
 Both share the same images and reference answers, allowing controlled evaluation of query under-specification.
 
-> **Note**: This public dataset contains **25% of the full benchmark** (165 items) for development and testing. 
-
 ## Usage
 
 The evaluation process consists of **two stages**:
