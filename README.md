@@ -6,7 +6,7 @@
 
 Evaluation code for HAERAE-Vision benchmark - a Korean visual QA dataset with real-world, under-specified questions.
 
-- **Paper**: [What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models](https://arxiv.org/abs/2601.06165)
+- **Paper**: [What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models](https://arxiv.org/abs/2601.06165) [ACL 2026 Findings]
 - **Dataset**: [HAERAE-HUB/HAERAE-VISION](https://huggingface.co/datasets/HAERAE-HUB/HAERAE-VISION)
 - **Leaderboard**: [https://board.haerae.world/](https://board.haerae.world/)
 
